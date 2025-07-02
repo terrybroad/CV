@@ -1,0 +1,465 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[normalem]{ulem}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large {Terence Broad}} & Email :  \href{mailto:t.broad@arts.ac.uk}{t.broad@arts.ac.uk}\\
+  \href{https://www.linkedin.com/in/terence-broad-81350668/}{LinkedIn |} 
+  \href{https://github.com/terrybroad}{Github}\\
+  \href{https://terencebroad.com}{terencebroad.com}
+  
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Goldsmiths, University of London}{London}
+      {PhD; Department of Computing}{October 2018 - November 2024}
+    \resumeSubheading
+      {Goldsmiths, University of London}{London}
+      {MSci Creative Computing; Distinction}{September 2012 - July 2016}   
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {UAL Creative Computing Institute}{London}
+      {Acting Course Leader}{Jan 2023 - May 2023; Jan 2025 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Acting course leader for the MSc Data Science and AI for the Creative Industries to cover parental leave absence.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Goldsmiths, University of London}{London}
+      {Research Fellow}{July 2025 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Graduate school fellow at Goldsmiths, University of London.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {UAL Creative Computing Institute}{London}
+      {Senior Lecturer}{September 2022 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Senior Lecturer teaching primarily postgraduate courses relating to AI, data science, programming and mathematical foundations and creative practices for working with AI.}
+        \resumeItemListEnd
+    
+    \resumeSubheading
+      {Freelance}{London}
+      {AI \& ML Consultant}{September 2021 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Freelance machine learning consultant, working on various projects including using computer vision technologies in the assistance of curating an exhibition for the Zurich Design Museum and using AI to generate audio and visuals for Warp Records.}
+    \resumeItemListEnd
+            
+           
+    \resumeSubheading
+      {UAL Creative Computing Institute}{London}
+      {Associate Lecturer}{January 2022 - August 2022}
+      \resumeItemListStart
+        \resumeItem{}
+          {Associate lecturer at the Creative Computing Institute at the University of The Arts London. Teaching machine learning, research methods and supervising dissertation projects on the MSc and MRes programmes in Creative Computing.}
+        \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Goldsmiths, University of London}{London}
+      {Teaching Assistant}{September 2019 - June 2021}
+      \resumeItemListStart
+        \resumeItem{}
+          {Teaching assistant in the Department of Computing, Goldsmiths, where I assisted in the teaching delivery and assessment for a wide range of undergraduate and postgraduate courses.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Vivacity Labs}{London}
+      {Research Scientist}{October 2017 - October 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Responsible for managing large bespoke datasets, training models and benchmarking and evaluating new methods and frameworks for low power IoT computer vision applications in the smart city sector. }
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Vivacity Labs}{London}
+      {Machine Learning Engineer}{October 2016 - October 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Worked in the software team that built the bespoke C++ library for doing on-device machine learning and data processing for IoT traffic sensors.}
+        \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Goldsmiths Digital}{London}
+    %   {Software Engineer}{June 2016 - October 2016}
+    %   \resumeItemListStart
+    %     \resumeItem{}
+    %       {Developed an automatic CV scraping tool using Python and RegEx for the MyEcho jobs platform. }
+    %   \resumeItemListEnd
+      
+    \resumeSubheading
+      {Wevolver}{London}
+      {Technical Writer}{November 2014 - May 2015}
+      \resumeItemListStart
+        \resumeItem{}
+          {Writing instruction manuals for open-source robotics projects for the Wevolver platform. }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {FutureDeluxe}{London}
+      {Creative Technologist}{May 2014 - October 2014}
+      \resumeItemListStart
+        \resumeItem{}
+          {Creative technologist internship at the digital design studio FutureDeluxe where I worked on a number of bespoke software projects for the advertising campaigns of clients including Converse and NVIDIA. }
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+%-------PUBLICATIONS------------------  
+\section{Academic Theses}
+ \resumeSubHeadingListStart
+   \resumeSubItem{}{\textbf{\textit{Expanding the Generative Space}: Data-Free Techniques for Active Divergence with Generative Neural Networks}
+  PhD Thesis, Goldsmiths, University of London, 2024.}
+  \resumeSubItem{}{\textbf{Autoencoding Video Frames.}
+  Masters Thesis, Goldsmiths, University of London, 2016.}
+  \resumeSubItem{}{\textbf{Light Field Completion Using Focal Stack Propagation.}
+  Undergraduate Thesis, Goldsmiths, University of London, 2015.}
+ \resumeSubHeadingListEnd
+ 
+%-------PUBLICATIONS------------------  
+\section{Journal Articles}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{Terence Broad, Frederic Fol Leymarie and Mick Grierson, \textbf{Network Bending: Expressive Manipulation of Generative Models in Multiple Domains.}
+   Entropy, 24(1), 2022.}
+  \resumeSubItem{}{Terence Broad and Mick Grierson,
+  \textbf{Autoencoding Blade Runner: Reconstructing films with artificial neural networks.}
+  Leonardo, 50(4), 2017.}
+ \resumeSubHeadingListEnd
+ 
+%-------PUBLICATIONS------------------  
+\section{Conference \& Workshop Proceedings}
+ \resumeSubHeadingListStart
+   \resumeSubItem{}{Ina Hrešć and Terence Broad,
+  \textbf{Co-Designing Fashion with AI: A Small-Data Approach to Generative Garment Design.}
+   Proceedings of the Sixteenth International Conference on Computational Creativity (ICCC), 2025. (Oral presentation)}
+   \resumeSubItem{}{Nick Bryan-Kinns, Shuoyang Jasper Zheng, Francisco Castro, Makayla Lewis, Jia-Rey Chang, Gabriel Vigliensoni, Terence Broad, Michael Clemens, Elizabeth Wilson,
+  \textbf{XAIxArts Manifesto: Explainable AI for the Arts.}
+   Extended Abstracts of the CHI Conference on Human Factors in Computing Systems, 2025. (Oral presentation)}
+   \resumeSubItem{}{Terence Broad,
+  \textbf{Using Generative AI as an Artistic Material: A Hackers Guide.}
+   XAIxArts: 2nd international workshop on eXplainable AI for the Arts at the ACM Creativity and Cognition Conference, 2024.}
+   \resumeSubItem{}{Terence Broad,
+  \textbf{Is computational creativity flourishing on the dead internet?}
+   Proceedings of the Fifteenth International Conference on Computational Creativity (ICCC), 2024.}
+   \resumeSubItem{}{Marissa Beaty and Terence Broad,
+  \textbf{Envisioning Distant Worlds: Training a Latent Diffusion Model on NASA's Exoplanet Data.}
+   NeurIPS Workshop on Machine Learning for Creativity and Design, 2023. (Oral presentation)}
+   \resumeSubItem{}{Junichi Shimizu,  Ireti Olowe, Terence Broad, Gabriel Vigliensoni, Prashanth Thattai and Rebecca Fiebrink
+  \textbf{Interactive Machine Learning for Generative Models.}
+   NeurIPS Workshop on Machine Learning for Creativity and Design, 2023.}
+  \resumeSubItem{}{Terence Broad, Sebastian Berns, Simon Colton and Mick Grierson,
+  \textbf{Active Divergence with Generative Deep Learning - A Survey and Taxonomy.}
+   Proceedings of the Twelfth International Conference on Computational Creativity (ICCC), 2021. (Oral presentation)}
+   \resumeSubItem{}{Sebastian Berns, Simon Colton, Christian Gucklesburger and Terence Broad,
+  \textbf{Automating Generative Deep Learning for Artistic Purposes: Challenges and Opportunities.}
+   Proceedings of the Twelfth International Conference on Computational Creativity (ICCC), 2021.}
+  \resumeSubItem{}{Terence Broad, Frederic Fol Leymarie and Mick Grierson,
+  \textbf{Network Bending: Expressive Manipulation of Deep Generative Models.}
+   Proceedings of the 10th International Conference on Artificial Intelligence in Music, Sound, Art and Design (EvoMUSART), 2021. (Oral presentation)}
+  \resumeSubItem{}{Terence Broad, Frederic Fol Leymarie and Mick Grierson,
+  \textbf{Amplifying The Uncanny. }
+   Proceedings of the 8th Conference on Computation, Communication, Aesthetics \& X (xCoAx), 2020. (Oral presentation)}
+  \resumeSubItem{}{Terence Broad and Mick Grierson,
+  \textbf{Searching for an \textit{(un)stable equilibrium}: experiments in training generative models without data.}
+  NeurIPS Workshop on Machine Learning for Creativity and Design, 2019.}
+  \resumeSubItem{}{Shaun Howell, Simon Cole, Terence Broad and Tommi Maatta,
+  \textbf{IoT and Machine Learning for Next Generation Traffic Systems.}
+  Transport Practitioners Meeting, 2018.}
+  \resumeSubItem{}{Terence Broad and Mick Grierson,
+  \textbf{Light Field Completion Using Focal Stack Propagation.}
+  SIGGRAPH `16 Posters, 2016.}
+ \resumeSubHeadingListEnd
+ 
+%-------------------------------------
+\section{Workshops, Tutorials and Online Courses}
+\resumeSubHeadingListStart
+\resumeSubItem{}{MOOC course creator, \textit{Creative AI: Sound, Music and Interaction}, Coursera, 2025 (forthcoming).}
+\resumeSubItem{}{MOOC course creator, \textit{Creative AI: Art and images}, Coursera, 2025 (forthcoming).}
+\resumeSubItem{}{MOOC course creator, \textit{Creative AI: Text and Transformations}, Coursera, 2025 (forthcoming).}
+ \resumeSubItem{}{MOOC course creator, \textit{Introduction to Creative AI}, Coursera, 2025 (forthcoming).}
+ \resumeSubItem{}{Workshop organizer, \textit{Making datasets for Generative AI}, BA Computational Arts, Camberwell College of Art,
+ 2022.}
+ \resumeSubItem{}{Tutorial organizer, \textit{A Deep Dive into Latent Space: Image Generation and Manipulation with StyleGAN2}, International Conference on Computational Creativity (ICCC) 2020.}
+\resumeSubHeadingListEnd
+
+%---------------------------------------
+\section{Awards and Honours}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{
+     \textbf{Nomination for Outstanding Support Award}{ - UAL Students Union Arts Awards,} {2023.} }
+    \resumeSubItem{}{
+    \textbf{Grand Prize}{ - ICCV Computer Vision Art Gallery,} {2019.}
+    }
+    \resumeSubItem{}{
+    \textbf{Recognition of Outstanding Peer Review}{ - Leonardo}{, 2019. }
+    }
+    \resumeSubItem{}{
+    \textbf{Honourary Mention}{ - Prix Ars Electronica, 2017.}
+    }
+    \resumeSubItem{}{
+    \textbf{Best Masters Thesis}{ - Department of Computing, Goldsmiths, 2016.}
+    }
+    \resumeSubItem{}{
+    \textbf{Best Technical Work}{ - Goldsmiths Computing Innovation Awards, 2015.}
+    }
+    \resumeSubItem{}{
+    \textbf{Best Creative Work}{ - Goldsmiths Computing Innovation Awards, 2014.}
+    }
+ \resumeSubHeadingListEnd
+
+  %---------Teaching/Leadership Experience-------
+\section{Funding and Scholarships}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{EPSRC Doctoral Studentship in Intelligent Games and Games Intelligence, 2018.}
+  \resumeSubItem{}{Eliahou Dangoor Scholarship, 2012.}
+ \resumeSubHeadingListEnd
+ 
+
+  %---------Teaching/Leadership Experience-------
+\section{Professional Activities}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{Paper Reviewer, NeurIPS CreativeAI track, 2025.}
+  \resumeSubItem{}{Paper Reviewer, NeurIPS CreativeAI track, 2024.}
+  \resumeSubItem{}{Art Papers Reviewer, ACM SIGGRAPH ASIA, 2024.}
+  \resumeSubItem{}{Art Papers Juror, ACM SIGGRAPH, 2024.}
+  \resumeSubItem{}{Art Gallery Juror, NeurIPS Creativity Workshop Art Gallery, 2023.}
+  \resumeSubItem{}{Art Papers Juror, ACM SIGGRAPH, 2023.}
+  \resumeSubItem{}{Art Gallery Juror, NeurIPS Creativity Workshop Art Gallery, 2022.}
+  \resumeSubItem{}{Reviewer for International Journal of Electrical and Computer Engineering, 2022.}
+  \resumeSubItem{}{Art Papers Juror, ACM SIGGRAPH, 2021.}
+  \resumeSubItem{}{Organising Committee, IGGI Conference, 2020.}
+\resumeSubItem{}{Ad hoc reviewer for Leonardo, 2019 - Present.}
+ \resumeSubItem{}{Visiting Researcher, UAL Creative Computing Institute, 2019 - 2022.}
+  \resumeSubItem{}{Guest Judge, Science Fiction Hackathon, Goldsmiths, University of London, 2018.}
+  \resumeSubItem{}{Reviewer for IEEE Transactions on Image Processing, 2017.}
+ \resumeSubHeadingListEnd
+
+  
+%---------Teaching/Leadership Experience-------
+\section{Teaching Experience}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{Unit Lead for \textit{Personalisation and Machine Learning}, UAL CCI (PG), Summer Term 2025.}
+  \resumeSubItem{}{Unit Lead for \textit{AI for Media}, UAL CCI (PG), Spring Term 2025.}
+  \resumeSubItem{}{Unit Lead for \textit{Natural Language Processing for the Creative Industries}, UAL CCI (PG), Autumn Term 2024.}
+  \resumeSubItem{}{Unit Lead for \textit{Data Science in the Creative Industries}, UAL CCI (PG), Summer Term 2024.}
+  \resumeSubItem{}{Unit Lead for \textit{AI for Media}, UAL CCI (PG), Spring Term 2024.}
+  \resumeSubItem{}{Unit Lead for \textit{Natural Language Processing for the Creative Industries}, UAL CCI (PG), Autumn Term 2023.}
+  \resumeSubItem{}{Lecturer for \textit{Data Science for the Creative Industries}, UAL CCI (PG), Summer Term 2023.}
+  \resumeSubItem{}{Lecturer for \textit{Personalisation and Machine Learning}, UAL CCI (PG), Summer Term 2023.}
+  \resumeSubItem{}{Lecturer for \textit{Introduction to Data Science}, UAL CCI (PG), Spring Term 2023.}
+  \resumeSubItem{}{Lecturer for \textit{AI for Media}, UAL CCI (PG), Spring Term 2023.}
+  % \resumeSubItem{}{Guest Lecturer for \textit{Creative Making: AI and Art}, UAL CCI (UG), Autumn Term 2022.}
+  \resumeSubItem{}{Lecturer for \textit{NLP for the Creative Industries}, UAL CCI (PG), Autumn Term 2022.}
+  \resumeSubItem{}{Lecturer for \textit{STEM for Creatives}, UAL CCI (PG), Autumn Term 2022.}
+  \resumeSubItem{}{Lecturer for \textit{Coding 3: Exploring Machine Intelligence}, UAL CCI (PG), Summer Term 2022.}
+  \resumeSubItem{}{Guest Lecturer for \textit{Critical Studies}, UAL CCI (PG), Spring Term 2022.}
+  \resumeSubItem{}{Lecturer for \textit{Research Design and Experimental Data}, UAL CCI (PG), Spring Term 2022.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Neural Networks}, Goldsmiths (UG), Spring Term 2021.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Software Projects (Year 1)}, Goldsmiths (UG), Spring Term 2021.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Introduction to Programming}, Goldsmiths (UG), Autumn Term 2020.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Front End Web Development}, Goldsmiths (UG), Autumn Term 2020.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Data and Machine Learning for Artist Practice}, Goldsmiths (PG), Spring Term 2020.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Perception and Multimedia Computing: Graphics}, Goldsmiths (UG), Spring Term 2020.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Data and Machine Learning for Creative Practice}, Goldsmiths (UG), Autumn Term 2019.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Perception and Multimedia Computing}, Goldsmiths (UG), Autumn Term 2019.}
+  \resumeSubItem{}{Teaching Assistant for \textit{Creative Projects (Year 2)}, Goldsmiths (UG), Autumn Term 2019.}
+ \resumeSubHeadingListEnd
+ 
+%---------Talks-------
+\section{Invited Talks}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{\textit{Explaining AI through artistic practice}, IEEE Workshop on AI for Art Creation (Keynote talk), Nantes, 2025.}
+ \resumeSubItem{}{\textit{Expanding the Generative Space}, Hiwar \& British Council AI and Art Seminar, Online, 2025.}
+ \resumeSubItem{}{\textit{Expanding the Generative Space}, Winchester School of Art, Winchester, 2025.}
+ \resumeSubItem{}{\textit{Expanding the Generative Space}, UAL CCI PG Research Seminar, London, 2025.}
+ \resumeSubItem{}{\textit{Expanding the Generative Space}, CreativeAI Meetup: The Return, London, 2025.}
+ \resumeSubItem{}{\textit{Using Generative AI as an Artistic Material: A Hackers Guide}, Made by Many AI \& Art Seminar, London, 2024.}
+ \resumeSubItem{}{\textit{Content, Copyright And Generative AI (panel discussion)}, London Data Week, 2024.}
+\resumeSubItem{}{\textit{Colours emerging from nothing in \textit{(un)stable equilibrium}}, Colors of AI workshop, University of Jönköping, 2024.}
+ \resumeSubItem{}{\textit{Artful Intrusions}, Misleading Images Seminar, National Studio of Contemporary Art, Fresnoy, 2023.}
+  \resumeSubItem{}{\textit{The next generation of CreativeAI}, CreativeAI Research Conference, University for the Creative Arts, Online, 2023.}
+  \resumeSubItem{}{\textit{Artist talk}, BA Fine Art Perspectives Programme, Camberwell College of Art, London, 2022.}
+  \resumeSubItem{}{\textit{Beyond Imitation}, Goldsmiths, University of London, 2022.}
+  \resumeSubItem{}{\textit{Beyond Imitation}, UAL Creative Computing Institute, 2021.}
+  \resumeSubItem{}{\textit{Beyond Imitation}, SIGGRAPH SPARKS, Online, 2021.}
+  \resumeSubItem{}{\textit{Active Divergence with Generative Deep Learning}, ICCC'21, \sout{Mexico City} Online, 2021.}
+  \resumeSubItem{}{\textit{Artist talk}, the depot\_, London, 2021.}
+  \resumeSubItem{}{\textit{Network Bending: Expressive Manipulation of Deep Generative Models}, EvoStar, \sout{Seville} Online, 2021.}
+  \resumeSubItem{}{\textit{Amplifying The Uncanny}, xCoAx, \sout{Graz} Online, 2020.}
+  \resumeSubItem{}{\textit{What is the best approach to learning representations of aesthetics?}, IGGI Conference, University of York, 2019.}
+  \resumeSubItem{}{\textit{Autoencoding Blade Runner}, SIGGRAPH `17 Art Papers, Los Angeles Convention Center, 2017.}
+  \resumeSubItem{}{\textit{Autoencoding Blade Runner}, Cambridge Coding Academy, London, 2016.}
+  \resumeSubItem{}{\textit{Autoencoding Blade Runner}, RE WORK Deep Learning Summit, London, 2016.}  
+  \resumeSubItem{}{\textit{Autoencoding Blade Runner},  CreativeAI Meetup \#1, Google Campus London, 2016.}  
+ \resumeSubHeadingListEnd
+ 
+%---------Exhibitions-------
+\section{Selected Exhibitions}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{\textit{CVPR AI Art Gallery}, Music City Center, Nashville, 2025.}
+  \resumeSubItem{}{\textit{CVPR AI Art Gallery}, Seattle Convention Center, Seattle, 2024.}
+  \resumeSubItem{}{\textit{Creative Machine Oxford}, Jesus College, Oxford, 2023.}
+  \resumeSubItem{}{\textit{FILE Festival}, Fiesp Cultural Center, São Paulo, 2022.}
+  \resumeSubItem{}{\textit{Creative Machine}, Goldsmiths College, London, 2022.}
+  \resumeSubItem{}{\textit{Reflections in the Water}, Feral File, Online, 2021.}
+  \resumeSubItem{}{\textit{the depot\_ digs}, the depot\_, London, 2021.}
+  \resumeSubItem{}{\textit{NeurIPS AI Art Gallery}, \sout{Vanctouver Convention Center} Online, 2020.}
+  \resumeSubItem{}{\textit{thereafter.hiatus}, one gee in fog, Geneva, 2020. }
+  \resumeSubItem{}{\textit{CCI Inaugural Exhibition}, Camberwell College of Art, London, 2020. }
+  \resumeSubItem{}{\textit{NeurIPS AI Art Gallery}, Vancouver Convention Center, Vancouver, 2019.}
+  \resumeSubItem{}{\textit{ICCV Computer Vision Art Gallery}, COEX Convention Center, Seoul, 2019. }
+  \resumeSubItem{}{\textit{Science Fiction - A Journey into the Unknown}, Kunsthal, Rotterdam, 2019.}
+  \resumeSubItem{}{\textit{Into the Unknown}, Brandts Museum of Art \& Visual Culture, Odense, 2018-19.}
+  \resumeSubItem{}{\textit{IAM}, Garage Museum of Contemporary Art, Moscow, 2018.}
+  \resumeSubItem{}{\textit{Counting The Waves}, Bard Hessel Museum, New York, 2018. }
+  \resumeSubItem{}{\textit{Science Fiction: A Journey into the Unknown}, Onassis Cultural Centre, Athens, 2017-18.}
+  \resumeSubItem{}{\textit{All these Moments will be lost in Time like Tears in Rain}, FMAC, Geneva, 2017. }
+  \resumeSubItem{}{\textit{Ars Electronica Festival}, Ars Electronica, Linz, 2017. }
+  \resumeSubItem{}{\textit{Into the Unknown: A Journey through Science Fiction}, The Barbican, London, 2017.}
+  \resumeSubItem{}{\textit{Why Future Still Needs Us: AI and Humanity}, Art Center Nabi, Seoul, 2016.}
+  \resumeSubItem{}{\textit{Robot Vision Party}, The Photographers Gallery, London, 2016.}
+  \resumeSubItem{}{\textit{Dreamlands: Immersive Cinema and Art, 1905–2016}, Whitney Museum of American Art, New York 2016-17.}
+ \resumeSubHeadingListEnd
+
+%---------Screenings-------
+\section{Screenings}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{\textit{Artist Moving Image in AI}, ArtScience Museum, Singapore, 2024.}
+  \resumeSubItem{}{\textit{Besides The Screen: Graphic Intelligences \& Algorithmic Fictions}, Museum of Image and Sound, São Paulo, 2019.}
+  \resumeSubItem{}{\textit{Impakt Festival}, Impakt Center, Utrecht, 2018.}
+  \resumeSubItem{}{\textit{Its origins are indeterminate}, Whitechapel Gallery, London, 2018.}
+  \resumeSubItem{}{\textit{Ars Electronica Animation Festival}, Ars Electronica Center, Linz, 2017.}
+  \resumeSubItem{}{\textit{Dreamlands: Immersive Cinema and Art Film Program}, Whitney Museum of American Art, New York, 2017.}
+  \resumeSubItem{}{\textit{Pluk De Nacht}, Amsterdam, 2016.}
+  \resumeSubItem{}{\textit{PANDO@EnclaveLab}, Enclave Gallery, London, 2016.}
+ \resumeSubHeadingListEnd
+ 
+ %---------Collections-------
+ \section{Collections}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{\textit{Blade Runner - Autoencoded}, The Contemporary Art Collection of the City of Geneva, Acquired 2018.}
+ \resumeSubHeadingListEnd
+
+ %---------Broadcast Media Coverage-------
+ \section{Broadcast Media Coverage}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{\textbf{CBC Radio}, \textit{CBC Spark: An Artificial Intelligence remade Blade Runner}, 2016.}
+  \resumeSubItem{}{\textbf{Sky News}, \textit{The emerging world of AI art}, 2016.}
+ \resumeSubHeadingListEnd
+ 
+ %---------Printed Media Coverage-------
+ \section{Printed Media Coverage}
+ \resumeSubHeadingListStart
+ \resumeSubItem{}{\textbf{MIT Technology Review}, \textit{How AI can help supercharge creativity}, 2025.}
+ \resumeSubItem{}{\textbf{Future Art Ecosystems 4}, \textit{Serpentine Gallery}, 2024.}
+ \resumeSubItem{}{\textbf{The State of the (CHI)Art}, \textit{Miriam Sturdee, Makayla Lewis and Mafalda Gamboa}, 2023.}
+ \resumeSubItem{}{\textbf{Discorrelated Images}, \textit{Shane Denson}, Duke University Press, 2020.}
+  \resumeSubItem{}{\textbf{Slightly Slipping on a Banana Skin}, \textit{St\'ephane Cecconi}, FMAC, 2018.}
+ \resumeSubItem{}{\textbf{Into The Unknown: A Journey Through Science Fiction}, \textit{Laura Clarke and Patrick Gyger}, Barbican International Enterprises, 2017.}
+ \resumeSubItem{}{\textbf{AI: The Other I}, \textit{Gerfried Stocker, Christine Sh\"{o}pf, Hannes Leopoldseder}, Hatje Cantz Verlag, 2017.}
+ \resumeSubItem{}{\textbf{CyberArts 2017}, \textit{Gerfried Stocker, Christine Sh\"{o}pf, Hannes Leopoldseder}, Hatje Cantz Verlag, 2017.}
+ \resumeSubItem{}{\textbf{The New York Times}, \textit{Diving Into Movie Palaces of the Mind at the Whitney}, 2016.}
+ \resumeSubItem{}{\textbf{The Wall Street Journal}, \textit{At the Whitney, a Different Take on the Moving Image}, 2016.}
+ % \resumeSubItem{}{\textbf{Dreamlands: Immersive Cinema and Art 1905-2016}, \textit{Chrissie Isles}, Yale University Press, 2016.}
+ \resumeSubHeadingListEnd
+
+
+ %---------Digital Media Coverage-------
+ \section{Digital Media Coverage}
+ \resumeSubHeadingListStart
+  \resumeSubItem{}{\textbf{The Verge}, \textit{What happens when you feed AI nothing}, 2025.}
+  \resumeSubItem{}{\textbf{London Evening Standard}, \textit{The Leader Podcast: Would you buy AI art for your home?}, 2023.}
+ \resumeSubItem{}{\textbf{New Scientist}, \textit{This science fiction trip is delightful, confusing – and risky}, 2017.}
+ \resumeSubItem{}{\textbf{The Independent}, \textit{Blade Runner, Autoencoded: The strange film that sums up our fears of AI and the future}, 2017.}
+  \resumeSubItem{}{\textbf{Motherboard}, \textit{The Neural Net That Recreated ‘Blade Runner’ Has the Movie Stuck in Its Memory}, 2017.}
+ \resumeSubItem{}{\textbf{AQNB}, \textit{The future is only an extension of our past: BB9 + beyond}, 2016.}
+ \resumeSubItem{}{\textbf{Vox}, \textit{A guy trained a machine to "watch" Blade Runner. Then things got seriously sci-fi.}, 2016.}
+ \resumeSubItem{}{\textbf{TechCrunch}, \textit{Oculus Hack Uses Cameras And Music To Mess With Your Perception.}, 2014.}
+ \resumeSubHeadingListEnd
+
+\end{document}
