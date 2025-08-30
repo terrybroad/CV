@@ -326,3 +326,6 @@ TSWLatexianTemp*
 #*Notes.bib
 
 .DS_Store
+
+*.pdf
+!cv.pdf
